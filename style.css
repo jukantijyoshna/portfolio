@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.7) !important;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffd700 !important;
+}
+.navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+}
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+.container:hover {
+    transform: scale(1.02);
+}
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #ffd700;
+}
+h2 {
+    font-size: 2rem;
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+h3 {
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f8f9fa;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.contact {
+    background: rgba(0, 123, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+}
+.contact a {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.contact a:hover {
+    color: #ffd700;
+}
+.icon {
+    margin-right: 10px;
+}
+.profile-img {
+  margin-bottom: 20px;
+  margin-top:40px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffd700;
+ 
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.row img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.row .content {
+    flex: 1;
+}
+.skillimage{
+  height: 400px;
+  width: 400px;
+
+}
